@@ -13,3 +13,10 @@
 *PS.* Для работы с данным картриджем (его записи) необходима как минимум расширенная вариация утилиты управления интерфейсом FlashKit MD: [Flashkit MD Plus](https://github.com/MiGeRA/FlashKit-MD-Plus) версии от **[1.0.2.0](https://github.com/MiGeRA/FlashKit-MD-Plus/releases/tag/1.0.2.0)**. Время записи полного объема картриджа с микросхемой памяти MX29L3211 ~150сек (по даташиту от 80 до 800сек, т.е. у нас неплохой результат). Поддержка работы с микросхемой MX29LV320 реализована в версии **[1.0.3.0](https://github.com/MiGeRA/FlashKit-MD-Plus/releases/tag/1.0.3.0)** - время записи полного объема ~100сек, т.е. чуток шустрее (хотя и запись пословная с "анлок-последовательностью" для каждого слова), просто сама микросхема более шустрая (по даташиту так вообще от 24 до 72сек), но у нас нет повышенного напряжения программирования для нее ...
 
 *PPS.* Будучи полностю совместимым с программатором FlashKit MD и приставками, для которых он предназначен - данный картридж минимум втрое дешевле по себестоимости чем функционально подобный [предлагает krikzz](https://krikzz.com/our-products/cartridges/flashkitmd.html) и вдвое чем [реплика от KY-tech](https://www.aliexpress.com/item/1005001465109297.html). С учетом применения микросхемы в "крупном корпусе" (P)SOP-44 требования к скиллованности пайки минимальны. Белый лак маскирует трассировку дорожек, что придает изделию законченный вид даже без корпуса ;-)
+
+## Copyright and Disclaimer
+Copyright: MiGeRA (aka Th.K)
+
+This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
+
+You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions
